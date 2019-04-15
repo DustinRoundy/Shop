@@ -1,0 +1,108 @@
+.product-img {
+    max-height: 300px;
+    max-width: 96%;
+    width: auto;
+    display: block;
+}
+
+.product-img-big {
+    max-height: 450px;
+    max-width: 96%;
+    width: auto;
+    display: block;
+}
+
+.thumb-img{
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+}
+
+.checkout{
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    font-size: 11px;
+}
+
+.checkout i {
+    font-size: 21px;
+}
+
+.product-btns {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricing {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.price-info {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.update{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 10px;
+}
+
+.select{
+    max-width: 150px;
+    font-size: 12px;
+}
+.filter{
+    font-size: 13px;
+    text-align: center;
+    padding: 5px;
+}
+
+.box{
+    border: solid #c6c6c6 2px;
+    border-radius: 6px;
+    box-shadow: 2px 2px darkgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
